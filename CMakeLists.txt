@@ -7,7 +7,6 @@ pkg_check_modules(GIO REQUIRED gio-2.0)
 
 include_directories(${GLIB_INCLUDE_DIRS} ${GIO_INCLUDE_DIRS})
 
-# Добавьте все ваши .c файлы в этот список с правильными путями
 add_executable(vcsk 
     main.c
     src/branch_f_add.c
@@ -21,5 +20,4 @@ add_executable(vcsk
     src/init_f_ver_project.c
 )
 
-# Линковка с библиотеками
 target_link_libraries(vcsk ${GLIB_LIBRARIES} ${GIO_LIBRARIES})
