@@ -1,12 +1,12 @@
-#include <stdio.h>                                     
-#include <string.h>                                    
-#include <glib.h>                                      
+#include <stdio.h>
+#include <string.h>
+#include <glib.h>
 #include "include/fun.h"                                                                                     
 
-int main(int argc, char *argv[])                       
-{                                                       
-    if (argc < 2)                                          
-    {                                                          
+int main(int argc, char *argv[])
+{
+    if (argc < 2)
+    {
         printf("vcsk <command>\n");                        
     }                                                      
     if (strcmp(argv[1], "init") == 0)
