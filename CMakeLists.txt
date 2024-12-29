@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.10)
+project(vcsk)
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GLIB REQUIRED glib-2.0)
+
+include_directories(${GLIB_INCLUDE_DIRS})
+
+# Добавьте все ваши .c файлы в этот список с правильными путями
+add_executable(vcsk 
+    main.c
+    src/init_data.c
+    src/init_f.c
+    src/branch_f.c
+    src/init_f_init.c
+    src/init_f_info.c
+    src/init_f_info_file.c
+    src/init_f_main.c
+    src/init_f_ver_project.c
+)
+
+# Линковка с библиотеками
+target_link_libraries(vcsk ${GLIB_LIBRARIES})
