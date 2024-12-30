@@ -9,6 +9,7 @@ include_directories(${GLIB_INCLUDE_DIRS} ${GIO_INCLUDE_DIRS})
 
 add_executable(vcsk 
     main.c
+    src/branch_f_add_dir.c
     src/branch_f_add.c
     src/init_data.c
     src/init_f.c
