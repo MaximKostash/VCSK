@@ -68,5 +68,27 @@ int main(int argc, char *argv[])
             printf("init\n");
         }
     }
+    else if (strcmp(argv[1], "del") == 0 && argc == 3)
+    {
+        if (g_file_test(init_c.init, G_FILE_TEST_IS_DIR))
+        {
+            BRANCH_F_DEL(argv[2]);
+        }
+        else
+        {
+            printf("init\n");
+        }
+    }
+    else if (strcmp(argv[1], "del-dir") == 0 && argc == 4)
+    {
+        if (g_file_test(init_c.init, G_FILE_TEST_IS_DIR))
+        {
+            BRANCH_F_DEL_DIR(argv[2], argv[3]);
+        }
+        else
+        {
+            printf("init\n");
+        }
+    }
     return 0;
 }
