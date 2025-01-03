@@ -25,5 +25,7 @@ int BRANCH_F_ADD(const gchar *file_name);
 int BRANCH_F_ADD_DIR(const gchar *dir, const gchar *file);
 int BRANCH_F_REPLACE(const gchar *file);
 int BRANCH_F_REPLACE_DIR(const gchar *dir, const gchar *file);
+int BRANCH_F_DEL(const gchar *file);
+int BRANCH_F_DEL_DIR(const gchar *dir, const gchar *file);
 
 #endif
