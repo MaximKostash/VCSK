@@ -9,6 +9,9 @@ include_directories(${GLIB_INCLUDE_DIRS} ${GIO_INCLUDE_DIRS})
 
 add_executable(vcsk 
     main.c
+    src/branch_f_notes_clear.c
+    src/branch_f_notes.c
+    src/init_f_notes.c
     src/branch_f_del_dir.c
     src/branch_f_del.c
     src/branch_f_replace_dir.c
