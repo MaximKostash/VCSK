@@ -90,5 +90,30 @@ int main(int argc, char *argv[])
             printf("init\n");
         }
     }
+    else if (strcmp(argv[1], "notes") == 0 && argc == 3)
+    {
+        if (g_file_test(init_c.init, G_FILE_TEST_IS_DIR))
+        {
+            for (int i = 0; i < argc; i++) 
+            {
+                BRANCH_F_NOTES(argv[2]);
+            }
+        }
+        else
+        {
+            printf("init\n");
+        }
+    }
+    else if (strcmp(argv[1], "notes-clear") == 0)
+    {
+        if (g_file_test(init_c.init, G_FILE_TEST_IS_DIR))
+        {
+            BRANCH_F_NOTES_CLEAR();
+        }
+        else
+        {
+            printf("init\n");
+        }
+    }
     return 0;
 }
