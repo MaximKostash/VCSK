@@ -15,5 +15,6 @@ void INIT_F()
         INIT_F_INFO_FILE();
         INIT_F_MAIN();
         INIT_F_VER_PROJECT();
+        INIT_F_NOTES();
     }
 }
