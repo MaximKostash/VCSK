@@ -31,5 +31,6 @@ int BRANCH_F_DEL(const gchar *file);
 int BRANCH_F_DEL_DIR(const gchar *dir, const gchar *file);
 int BRANCH_F_NOTES(const gchar *notes_file);
 int BRANCH_F_NOTES_CLEAR();
+int BRANCH_F_DEL_VER(const gchar *dir);
 
 #endif
