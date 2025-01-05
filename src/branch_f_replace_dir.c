@@ -34,7 +34,7 @@ int BRANCH_F_REPLACE_DIR(const gchar *dir, const gchar *file)
     } 
     else 
     {
-        g_print("The file does not exist: %s\n", d);
+        g_print("There is no file.\n", d);
     }
     g_free(d);
     return 0;
