@@ -9,7 +9,7 @@ int BRANCH_F_DEL_DIR(const gchar *dir, const gchar *file)
     {
         if (remove(d) == 0)
         {
-            printf("delete...\n");
+            printf("Performing the operation...\n");
         }
         else
         {
