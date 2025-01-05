@@ -9,7 +9,6 @@ int BRANCH_F_REPLACE(const gchar *file)
     if (g_file_test(file, G_FILE_TEST_EXISTS))
     {
         gchar *source_path = g_strdup_printf("%s/%s", init_c.main, file);
-        
         if (g_file_test(source_path, G_FILE_TEST_EXISTS))
         {
             GError *error = NULL;
@@ -29,14 +28,13 @@ int BRANCH_F_REPLACE(const gchar *file)
         }
         else
         {
-            printf("false\n");
+            printf("There is no file.\n");
         }
-        
         g_free(source_path);
     }
     else
     {
-        printf("false.\n");
+        printf("There is no file.\n");
     }
     return 0;
 }
