@@ -14,7 +14,7 @@ int BRANCH_F_NOTES(const gchar *notes_file)
     GError *error = NULL;
     if (g_file_set_contents(d, notes_file, -1, &error))
     {
-        printf("notes...\n");
+        printf("Performing the operation...\n");
     }
     else
     {
