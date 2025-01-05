@@ -126,5 +126,17 @@ int main(int argc, char *argv[])
             printf("First initialize the system: vcsk init\n");
         }
     }
+    else if (strcmp(argv[1], "help") == 0)
+    {
+        HELP();
+    }
+    else if (strcmp(argv[1], "info") == 0)
+    {
+        INFO();
+    }
+    else
+    {
+        VCSK();
+    }
     return 0;
 }
