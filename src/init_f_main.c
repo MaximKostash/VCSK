@@ -6,7 +6,7 @@ int INIT_F_MAIN()
 {
     if (g_mkdir_with_parents(init_c.main, 0775) == 0)
     {
-        printf("main...\n");
+        printf("Performing the operation...\n");
     }
     else
     {
