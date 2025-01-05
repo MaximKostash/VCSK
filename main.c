@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "add") == 0 && argc == 3)
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "add-dir") == 0 && argc == 4)
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "replace") == 0 && argc == 3)
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "replace-dir") == 0 && argc == 4)
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "del") == 0 && argc == 3)
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "del-dir") == 0 && argc == 4)
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "notes") == 0 && argc == 3)
@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "notes-clear") == 0)
@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     else if (strcmp(argv[1], "del-ver") == 0 && argc == 3)
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("init\n");
+            printf("First initialize the system: vcsk init\n");
         }
     }
     return 0;
