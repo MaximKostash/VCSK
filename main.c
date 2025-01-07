@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     if (argc < 2)
     {
-        printf("vcsk <command>\n");
+        VCSK();
     }
     if (strcmp(argv[1], "init") == 0)
     {
@@ -136,7 +136,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        VCSK();
+        printf("Command not recognized.\nList of available commands - vcsk help\n");
     }
     return 0;
 }
