@@ -3,7 +3,8 @@
 
 #include <glib.h>
 
-typedef struct {
+typedef struct 
+{
     const gchar *init;
     const gchar *info;
     const gchar *info_file;
@@ -13,7 +14,14 @@ typedef struct {
     const gchar *notes;
 } INIT;
 
+typedef struct
+{
+    const gchar *c1;
+    const gchar *c2;
+} COMM;
+
 extern INIT init_c;
+extern COMM comm;
 
 void INIT_F();
 int INIT_F_INIT();
