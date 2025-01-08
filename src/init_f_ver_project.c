@@ -6,7 +6,7 @@ int INIT_F_VER_PROJECT()
 {
     if (g_mkdir_with_parents(init_c.ver_project, 0775) == 0)
     {
-        comm.c2;
+        printf("%s", comm.c2);
     }
     else
     {
