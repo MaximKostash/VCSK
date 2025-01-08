@@ -6,7 +6,7 @@ void INIT_F()
 {
     if (g_file_test(init_c.init, G_FILE_TEST_IS_DIR))
     {
-        printf("First initialize the system: vcsk init\n");
+        comm.c1;
     }
     else
     {
