@@ -7,7 +7,7 @@ int BRANCH_F(const gchar *branch_name)
     gchar *branch_path = g_strdup_printf("%s/%s", init_c.ver_project, branch_name);
     if (g_mkdir_with_parents(branch_path, 0775) == 0)
     {
-        printf("Performing the operation...\n");
+        comm.c2;
     }
     else
     {
