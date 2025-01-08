@@ -12,7 +12,7 @@ int BRANCH_F_ADD(const gchar *file_name) {
         GError *error = NULL;
         if (g_file_copy(source, destination, G_FILE_COPY_OVERWRITE, NULL, NULL, NULL, &error)) 
         {
-            comm.c2;
+            printf("%s", comm.c2);
         } 
         else 
         {
