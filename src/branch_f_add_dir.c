@@ -15,7 +15,7 @@ int BRANCH_F_ADD_DIR(const gchar *dir, const gchar *file)
         {
             if (g_file_copy(source, destination, G_FILE_COPY_OVERWRITE, NULL, NULL, NULL, &error))
             {
-                printf("Performing the operation...\n");
+                comm.c2;
             }
             else
             {
