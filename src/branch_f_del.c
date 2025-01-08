@@ -9,7 +9,7 @@ int BRANCH_F_DEL(const gchar *file)
     {
         if (remove(d) == 0)
         {
-            comm.c2;
+            printf("%s", comm.c2);
         }
         else
         {
