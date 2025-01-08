@@ -6,7 +6,7 @@ int INIT_F_MAIN()
 {
     if (g_mkdir_with_parents(init_c.main, 0775) == 0)
     {
-        comm.c2;
+        printf("%s", comm.c2);
     }
     else
     {
