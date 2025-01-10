@@ -11,7 +11,7 @@
 ## Installation
 Step 1:
 ```
-wget https://raw.githubusercontent.com/MaximKostash/VCSK/install.sh
+curl -o install.sh https://raw.githubusercontent.com/MaximKostash/VCSK/install.sh
 ```
 Step 2:
 ```
