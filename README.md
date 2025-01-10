@@ -1,6 +1,5 @@
 # VCSK
 ![C](https://img.shields.io/badge/C-A8B400?style=flat&logo=c&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
