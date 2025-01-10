@@ -9,19 +9,22 @@
 
 ---
 ## Installation
-Step 1:
+To compile:
 ```
-curl -o install.sh https://raw.githubusercontent.com/MaximKostash/VCSK/install.sh
+make
 ```
-Step 2:
+To install:
 ```
-chmod +x install.sh
+sudo make install
 ```
-Step 3:
+To uninstall:
 ```
-./install.sh
+sudo make uninstall
 ```
-
+To clean temp files
+```
+make clean
+```
 ---
 ## Contacts
 To contact the project developer, write to him by email maxkostash0@gmail.com.
