@@ -3,7 +3,6 @@
 all: vcsk
 
 vcsk:
-	mkdir -p build
 	cd build && cmake .. && make
 	mv build/vcsk .
 
@@ -16,4 +15,3 @@ uninstall:
 clean:
 	rm -f vcsk
 	rm -rf build/*
-	touch build/.gitkeep

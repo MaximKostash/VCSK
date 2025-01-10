@@ -1,4 +1,4 @@
-build/CMakeFiles
-build/CMakeCache.txt
-build/cmake_install.cmake
-build/Makefile
+#Игнорировать все файлы в build
+build/*
+# Кроме .gitkeep
+!build/.gitkeep
