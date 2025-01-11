@@ -13,7 +13,7 @@ depen:
 install: vcsk
 	sudo mv vcsk /usr/local/bin/
 
-uninstall:
+uninstall: clean
 	sudo rm -f /usr/local/bin/vcsk
 
 clean:
