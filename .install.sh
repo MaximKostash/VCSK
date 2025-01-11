@@ -22,6 +22,7 @@ if $INSTALL_CMAKE || $INSTALL_PKG_CONFIG; then
   echo "Нажмите Enter, чтобы продолжить установку."
   read -p ""
 
+  # Спиздел у Fastfetch проверку Дистра линукс
   DISTRO=$(cat /etc/os-release | grep -i "NAME" | cut -d "=" -f2-)
 
   echo "Установка необходимых пакетов..."
