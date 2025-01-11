@@ -1,4 +1,4 @@
-.PHONY: all install uninstall clean
+.PHONY: depen all install uninstall clean
 
 all: vcsk
 
@@ -6,11 +6,15 @@ vcsk:
 	cd build && cmake .. && make
 	mv build/vcsk .
 
+depen:
+	@echo "Запуск установки зависимостей..."
+	@./.install.sh
+
 install: vcsk
-	mv vcsk /usr/local/bin/
+	sudo mv vcsk /usr/local/bin/
 
 uninstall:
-	rm -f /usr/local/bin/vcsk
+	sudo rm -f /usr/local/bin/vcsk
 
 clean:
 	rm -f vcsk

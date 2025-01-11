@@ -12,6 +12,10 @@ To compile:
 ```
 make
 ```
+To install dependencies:
+```
+make depen
+```
 To install:
 ```
 sudo make install
