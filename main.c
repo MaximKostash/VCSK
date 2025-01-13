@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     if (argc < 2)
     {
         VCSK();
+        return VCSK();
     }
     if (strcmp(argv[1], "init") == 0)
     {
