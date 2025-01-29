@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
-**VCSK (Version control system Kostash)** - It is an easy to use Linux based system that will help you manage your project.
+**VCSK (Version control system Kostash)** - It is an easy to use system that will help you manage your project.
 
 ---
 ## Installation
