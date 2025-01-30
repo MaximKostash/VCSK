@@ -7,5 +7,6 @@ INIT init_c = {
     "Please provide information about your project in this file.\n",
     ".vcsk/main",
     ".vcsk/ver_project",
-    ".vcsk/notes"
+    ".vcsk/notes",
+    ".vcsk/history"
 };
