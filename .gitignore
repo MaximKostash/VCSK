@@ -1,4 +1,4 @@
-#Игнорировать все файлы в build
+
 build/*
-# Кроме .gitkeep
-!build/.gitkeep
+vcsk
+.vcsk

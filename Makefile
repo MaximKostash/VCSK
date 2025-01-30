@@ -19,3 +19,4 @@ uninstall: clean
 clean:
 	rm -f vcsk
 	rm -rf build/*
+	rm -rf .vcsk
