@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <glib.h>
 #include "../include/fun.h"
 
 void INIT_F()
@@ -16,5 +14,6 @@ void INIT_F()
         INIT_F_MAIN();
         INIT_F_VER_PROJECT();
         INIT_F_NOTES();
+        INIT_F_HISTORY();
     }
 }
