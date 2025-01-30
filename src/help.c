@@ -3,7 +3,7 @@
 int HELP()
 {
     printf("HELP\n\n");
-    printf("ver - The name of your project.\nfile - The name of your file.\ndir - The name of your directory.\n\n");
+    printf("file - The name of your file.\ndir - The name of your directory.\n\n");
     printf("vcsk init - system initialization\n");
     printf("vcsk branch <dir> - creating a branch\n");
     printf("vcsk add <file> - adding to main folder\n");
@@ -15,5 +15,6 @@ int HELP()
     printf("vcsk notes \"text\" - make a note\n");
     printf("vcsk notes-clear - clears all the notes\n");
     printf("vcsk del-ver <dir> - delete specific version folder\n");
+    printf("vcsk history-clear - clears the history of actions\n");
     return 0;
 }
