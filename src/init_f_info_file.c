@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <glib.h>
 #include "../include/fun.h"
 
 int INIT_F_INFO_FILE()
