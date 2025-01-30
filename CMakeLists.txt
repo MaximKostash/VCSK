@@ -8,6 +8,8 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLIB REQUIRED glib-2.0)
 pkg_check_modules(GIO REQUIRED gio-2.0)
 
+link_directories(${GLIB_LIBRARY_DIRS} ${GIO_LIBRARY_DIRS})
+
 include_directories(${GLIB_INCLUDE_DIRS} ${GIO_INCLUDE_DIRS})
 
 file(GLOB SOURCES "src/*.c")
