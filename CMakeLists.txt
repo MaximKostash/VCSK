@@ -9,6 +9,8 @@ include_directories(${GLIB_INCLUDE_DIRS} ${GIO_INCLUDE_DIRS})
 
 add_executable(vcsk 
     main.c
+    src/history_clear.c
+    src/init_f_history.c
     src/comm_data.c
     src/info.c
     src/help.c
