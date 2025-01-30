@@ -56,6 +56,15 @@ if $INSTALL_CMAKE || $INSTALL_PKG_CONFIG; then
       [ "$INSTALL_CMAKE" = true ] && sudo pkg install cmake || { echo "Ошибка установки cmake."; exit 1; }
       [ "$INSTALL_PKG_CONFIG" = true ] && sudo pkg install pkg-config || { echo "Ошибка установки pkg-config."; exit 1; }
       ;;
+    *"Darwin"* )
+      if command -v brew &> /dev/null; then
+        echo "Устанавливаем через Homebrew..."
+        brew install ${INSTALL_CMAKE:+cmake} ${INSTALL_PKG_CONFIG:+pkg-config} || { echo "Ошибка установки пакетов."; exit 1; }
+      else
+        echo "Homebrew не установлен. Пожалуйста, установите Homebrew и повторите попытку."
+        exit 1
+      fi
+      ;;
     *"LFS"* )
       echo "Если у вас LFS, то поздравляю вы бог линукса, а во-вторых СКАЧАЙТЕ САМИ 'cmake и pkg-config'"
       exit 1
@@ -68,3 +77,4 @@ if $INSTALL_CMAKE || $INSTALL_PKG_CONFIG; then
 else
   echo "Оба пакета уже установлены. Установка не требуется."
 fi
+
