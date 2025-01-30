@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <glib.h>
 #include "../include/fun.h"
 
 int BRANCH_F(const gchar *branch_name)
