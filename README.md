@@ -24,7 +24,7 @@ To uninstall:
 ```
 sudo make uninstall
 ```
-To clean temp files
+To clean temp files:
 ```
 make clean
 ```
