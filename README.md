@@ -36,4 +36,4 @@ To contact the project developer, write to him by email maxkostash0@gmail.com.
 ---
 ## Links
 - [Telegram](https://t.me/+Mxj73iJezmZjMTcy)
-- [Discord](https://discord.gg/rnTMQeUr)
+- [Discord](https://discord.gg/aZMXXANNnv)
