@@ -35,5 +35,5 @@ To contact the project developer, write to him by email maxkostash0@gmail.com.
 
 ---
 ## Links
-- [Telegram](https://t.me/+Mxj73iJezmZjMTcy)
+- [Telegram](https://t.me/vcskofficial)
 - [Discord](https://discord.gg/aZMXXANNnv)
